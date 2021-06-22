@@ -5,7 +5,13 @@ import { PaisService } from '../../services/pais.service';
 @Component({
   selector: 'app-pais-tabla',
   templateUrl: './pais-tabla.component.html',
-  styles: [
+  styles: [` 
+  
+  td{
+    padding: 5px;
+    
+    }
+  `
   ]
 })
 export class PaisTablaComponent implements OnInit {

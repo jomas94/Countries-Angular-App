@@ -12,7 +12,15 @@ import { PaisService } from '../../services/pais.service';
 @Component({
   selector: 'app-ver-pais',
   templateUrl: './ver-pais.component.html',
-  styles: [
+  styles: [`
+  
+  span{
+    margin-right:5px;
+  }
+  
+  
+
+  `
   ]
 })
 export class VerPaisComponent implements OnInit {

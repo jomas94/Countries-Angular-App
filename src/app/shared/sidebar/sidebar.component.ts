@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
     li{
       cursor:pointer;
     }
+    /* .sidebar{
+      min-width: 100%;
+    } */
     `
   ]
 })

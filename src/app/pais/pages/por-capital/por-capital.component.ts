@@ -6,6 +6,13 @@ import { PaisService } from '../../services/pais.service';
   selector: 'app-por-capital',
   templateUrl: './por-capital.component.html',
   styles: [
+    `
+    h2{
+
+      margin-top:5px;
+
+    }
+    `
   ]
 })
 export class PorCapitalComponent {

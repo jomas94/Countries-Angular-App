@@ -7,8 +7,12 @@ import { Country } from '../../interfaces/pais.interface';
   templateUrl: './por-region.component.html',
   styles: [
     `button{
-      margin-right: 5px;
-    }`
+      margin: 5px;
+    }
+    h2{
+      margin-top:5px;
+    }
+    `
   ]
 })
 export class PorRegionComponent {
