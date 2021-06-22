@@ -1,0 +1,1 @@
+.small-flag{width:50px}@media (max-width:480px){.cuadro{border-top:1px solid #000;margin-top:20px}}.cuadro{padding:5px}h2{font-weight:700}body{background:linear-gradient(-45deg,#e73c7e,#ff8235,#23d5ab);background-size:500% 500%;animation:gradient 15s ease infinite}@keyframes gradient{0%{background-position:0 50%}50%{background-position:100% 50%}to{background-position:0 50%}}
