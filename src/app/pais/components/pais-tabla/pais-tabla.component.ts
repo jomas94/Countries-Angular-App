@@ -11,6 +11,7 @@ import { PaisService } from '../../services/pais.service';
     padding: 5px;
     
     }
+   
   `
   ]
 })

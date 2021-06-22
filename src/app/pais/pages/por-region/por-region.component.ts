@@ -8,6 +8,7 @@ import { Country } from '../../interfaces/pais.interface';
   styles: [
     `button{
       margin: 5px;
+      font-weight:bolder;
     }
     h2{
       margin-top:5px;
