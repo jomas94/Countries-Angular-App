@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -7,6 +7,12 @@ import { PaisModule } from './pais/pais.module';
 import { SharedModule } from './shared/shared.module';
 
 import { AppRoutingModule } from './app-routing.module';
+
+import localeEs from '@angular/common/locales/es';
+import { registerLocaleData} from '@angular/common';
+
+registerLocaleData( localeEs );
+
 
 @NgModule({
   declarations: [
@@ -19,7 +25,10 @@ import { AppRoutingModule } from './app-routing.module';
     PaisModule,
     SharedModule,
   ],
-  providers: [],
+  providers: [
+    {
+    provide: LOCALE_ID, useValue:'es'
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

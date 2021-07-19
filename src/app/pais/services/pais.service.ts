@@ -33,7 +33,7 @@ export class PaisService {
   
   getPaisPorID( id:string):Observable<Country>{
 
-    const url: string = `${this.apiUrl}/alpha/${id}?fields=name;flag;population;numericCode;alpha2Code;translations`;
+    const url: string = `${this.apiUrl}/alpha/${id}?fields=name;flag;population;callingCodes;alpha2Code;translations`;
 
     return this.http.get<Country>( url);
   }
